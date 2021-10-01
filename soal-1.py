@@ -21,10 +21,12 @@ else :
 
 phi = input( "π : ")
 r = input("jari-jari : ")
-L = phi * (r * r)
+
 
 p = float(phi)
 j = float(r)
+
+L = float(p * j**2)
 
 
 print(f"Luas lingkaran dengan jari jari {r} cm adalah {L} cm\u00b2")
